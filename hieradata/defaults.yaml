@@ -1,0 +1,7 @@
+## defaults
+---
+puppet::profile::agent::enabled: false
+puppet::profile::agent::allinone: false
+puppet::profile::agent::manage_repos: false
+# puppet::profile::agent::collection: 'PC1'
+puppet::profile::agent::structured_facts: true
